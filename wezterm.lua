@@ -12,7 +12,7 @@ return {
     hide_tab_bar_if_only_one_tab = true,
 
     window_background_opacity = 0.68,
-    font = wezterm.font('JetBrainsMonoNerdFont', { weight = 'Bold', italic = false }),
+    font = wezterm.font('Meslo LG M Nerd Font', { weight = 'Bold', italic = false }),
     font_size = 10.5,
     -- weight = "Bold",
     keys = {
@@ -30,6 +30,7 @@ return {
     use_fancy_tab_bar = true,
     -- windows_decorations="RESIZE",
     force_reverse_video_cursor = true,
+    warn_about_missing_glyphs = false,
    --  background = {
    --      source = {
    --          File={path = "/home/samuelsurf/Downloads/OI89G.jpeg"}
